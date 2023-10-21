@@ -582,8 +582,8 @@ self.__RSC_MANIFEST={
       "static/css/app/page.css"
     ],
     "D:\\cari cuan\\portfolio project\\folio-v1\\app\\layout": [
-      "static/css/_app-client_node_modules_next_font_google_target_css_path_app_layout_tsx_import_Syne_argument-4f00c6.css",
-      "static/css/_app-client_app_globals_css.css"
+      "static/css/_app-client_app_globals_css.css",
+      "static/css/_app-client_node_modules_next_font_google_target_css_path_app_layout_tsx_import_Syne_argument-4f00c6.css"
     ]
   },
   "D:\\cari cuan\\portfolio project\\folio-v1\\node_modules\\next\\dist\\client\\components\\app-router.js": {
@@ -994,6 +994,15 @@ self.__RSC_MANIFEST={
       "async": false
     }
   },
+  "D:\\cari cuan\\portfolio project\\folio-v1\\node_modules\\@next\\font\\google\\target.css?{\"path\":\"app\\\\layout.tsx\",\"import\":\"Syne\",\"arguments\":[{\"subsets\":[\"latin\"],\"display\":\"block\",\"weight\":[\"400\",\"500\",\"600\",\"700\",\"800\"]}],\"variableName\":\"syne\"}": {
+    "default": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/_app-client_node_modules_next_font_google_target_css_path_app_layout_tsx_import_Syne_argument-4f00c6.css"
+      ]
+    }
+  },
   "D:\\cari cuan\\portfolio project\\folio-v1\\app\\globals.css": {
     "default": {
       "id": "null",
@@ -1001,15 +1010,6 @@ self.__RSC_MANIFEST={
       "chunks": [
         "static/css/_app-client_app_globals_css.css",
         "static/css/_app-client_app_blog-section_BlogGrid_tsx.css"
-      ]
-    }
-  },
-  "D:\\cari cuan\\portfolio project\\folio-v1\\node_modules\\@next\\font\\google\\target.css?{\"path\":\"app\\\\layout.tsx\",\"import\":\"Syne\",\"arguments\":[{\"subsets\":[\"latin\"],\"display\":\"block\",\"weight\":[\"400\",\"500\",\"600\",\"700\",\"800\"]}],\"variableName\":\"syne\"}": {
-    "default": {
-      "id": "null",
-      "name": "default",
-      "chunks": [
-        "static/css/_app-client_node_modules_next_font_google_target_css_path_app_layout_tsx_import_Syne_argument-4f00c6.css"
       ]
     }
   },
