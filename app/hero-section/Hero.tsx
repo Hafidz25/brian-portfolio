@@ -4,7 +4,7 @@ import { monaSans } from "../fonts/monaSans";
 import { motion } from "framer-motion";
 import { imageAnimation, bodyAnimation } from "../animations/animations";
 import AnimatedWords from "../animations/AnimatedWords";
-import profile from "../../public/profile.webp";
+import profile from "../../public/profile.jpg";
 
 const Hero = () => {
   return (
@@ -19,7 +19,7 @@ const Hero = () => {
       <div className="absolute top-10 flex justify-between sm:w-[90%] lg:max-w-[1440px]">
         <div>
           <Link
-            href="https://drive.google.com/file/d/1XZPlj1js43hdIOH63nF0V_n4x_p80vhw/view"
+            href="https://drive.google.com/file/d/1fZcD48-l9PPfY_68HdX-7sm5kNz9W5pX/view"
             target="_blank"
             aria-label="View Resume"
           >
@@ -33,8 +33,8 @@ const Hero = () => {
         </div>
 
         <div className="flex gap-10 text-[#e4ded7] sm:gap-12 md:gap-14 lg:gap-14">
-          <Link
-            href="https://github.com/victorcodess"
+          {/* <Link
+            href="https://github.com/"
             target="_blank"
             aria-label="View GitHub Profile"
           >
@@ -44,9 +44,9 @@ const Hero = () => {
             >
               GH
             </motion.p>
-          </Link>
+          </Link> */}
           <Link
-            href="https://www.linkedin.com/in/victor-williams-chukwudi/"
+            href="https://www.linkedin.com/in/brian-prakoso-47b14b281/"
             target="_blank"
             aria-label="View LinkedIn Profile"
           >
@@ -58,7 +58,7 @@ const Hero = () => {
             </motion.p>
           </Link>
           <Link
-            href="https://twitter.com/victorwill__"
+            href="https://twitter.com/prakoso_675"
             target="_blank"
             aria-label="View Twitter Profile"
           >
@@ -77,7 +77,7 @@ const Hero = () => {
           className={`relative flex flex-col items-center justify-center ${monaSans.className}   `}
         >
           <AnimatedWords
-            title="VICTOR WILLIAMS"
+            title="BRIAN PRAKOSO"
             style="inline-block overflow-hidden pt-1 -mr-4 sm:-mr-5 md:-mr-7 lg:-mr-9 -mb-1 sm:-mb-2 md:-mb-3 lg:-mb-4"
           />
           <motion.div
@@ -87,7 +87,7 @@ const Hero = () => {
             <Image
               src={profile}
               priority
-              alt="Victor's headshot"
+              alt="Brian's headshot"
               data-blobity-tooltip="Fine boy"
               data-blobity-invert="false"
               className=" w-[150px] rounded-[16px] grayscale hover:grayscale-0 md:w-[200px] md:rounded-[32px] lg:w-[245px]"
@@ -106,15 +106,15 @@ const Hero = () => {
           variants={bodyAnimation}
         >
           <p className="z-50 text-center text-[16px] font-medium text-[#e4ded7] md:text-[20px] lg:text-left">
-            Frontend Engineer and Product Designer, currently at{" "}
-            <Link
+            Artist and Freelance Illustrator
+            {/* <Link
               href="https://crownbrandingagency.com/ "
               target="_blank"
               className="underline underline-offset-2 hover:no-underline"
               aria-label="Crown Branding Agency Website"
             >
               Crown Branding Agency.
-            </Link>
+            </Link> */}
           </p>
         </motion.div>
 
@@ -123,8 +123,8 @@ const Hero = () => {
           variants={bodyAnimation}
         >
           <p className="text-right text-[16px] font-semibold text-[#e4ded7] md:text-[20px]">
-            Focused on interfaces and experiences, working remotely from Lagos,
-            Nigeria.
+            Focused on interfaces and experiences, working remotely from Malang,
+            Indonesia.
           </p>
         </motion.div>
       </div>

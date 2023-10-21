@@ -11,58 +11,36 @@ const syne = Syne({
 });
 
 export const metadata: Metadata = {
-  title: "Victor Williams — Frontend Engineer",
+  title: "Brian Prakoso — Freelance Illustrator",
   description:
-    "Frontend Engineer and Product Designer, currently at Crown Branding Agency. Focused on interfaces and experiences, working remotely from Lagos, Nigeria.",
+    "I'm a figure illustrator specialized in anime style, been studying it's fundamental for at least 2 years and once worked as a freelancer game designer",
   generator: "Next.js",
-  applicationName: "Victor Williams",
+  applicationName: "Brian Prakoso",
   keywords: [
     "freelance",
-    "developer",
-    "freelance developer",
-    "frontend",
-    "react",
-    "frontend developer",
-    "frontend engineer",
-    "creative",
-    "creative developer",
-    "creative engineer",
-    "tech",
-    "nigeria",
-    "software",
-    "software developer",
-    "portfolio",
-    "frontend developer portfolio",
-    "creative developer portfolio",
+    "illustrator",
+    "character design",
+    "concept art",
+    "design graphic",
   ],
   colorScheme: "dark",
   openGraph: {
-    title: "Victor Williams — Frontend Engineer",
+    title: "Brian Prakoso — Freelance Illustrator",
     description:
-      "Frontend Engineer and Product Designer, currently at Crown Branding Agency. Focused on interfaces and experiences, working remotely from Lagos, Nigeria.",
-    url: "https://www.victorwilliams.me/",
-    siteName: "www.victorwilliams.me",
-    images: [
-      {
-        url: "https://user-images.githubusercontent.com/84178696/228620835-e3cc5c9b-72fc-4f54-a628-407ef7b650f5.png",
-        width: 1200,
-        height: 630,
-        alt: "Victor Williams — Frontend Engineer",
-      },
-    ],
+      "I'm a figure illustrator specialized in anime style, been studying it's fundamental for at least 2 years and once worked as a freelancer game designer",
+    url: "http://localhost:3000/",
+    siteName: "localhost:3000",
+
     locale: "en-US",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Victor Williams — Frontend Engineer",
+    title: "Brian Prakoso — Freelance Illustrator",
     description:
-      "Frontend Engineer and Product Designer, currently at Crown Branding Agency. Focused on interfaces and experiences, working remotely from Lagos, Nigeria.",
-    creator: "victorwill__",
+      "I'm a figure illustrator specialized in anime style, been studying it's fundamental for at least 2 years and once worked as a freelancer game designer",
+    creator: "brian_",
     creatorId: "1243720976552144897",
-    images: [
-      "https://user-images.githubusercontent.com/84178696/228620835-e3cc5c9b-72fc-4f54-a628-407ef7b650f5.png",
-    ],
   },
   robots: {
     index: true,
