@@ -23,7 +23,7 @@ Clone the project
 Go to the project directory
 
 ```bash
-  cd brian-prakoso
+  cd brian-portfolio
 ```
 
 Install dependencies
